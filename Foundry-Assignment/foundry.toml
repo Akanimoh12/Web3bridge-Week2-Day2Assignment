@@ -1,0 +1,15 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+[rpc_endpoints]
+sepolia = "${SEPOLIA_RPC_URL}"
+coredao = "${CORE_TESTNET_URL}"
+
+[etherscan]
+sepolia = { key = "${ETHERSCAN_KEY}" }
+corescan = { key = "${CORE_SCAN_API_KEY}", url = "${CORE_TESTNET_URL}", chain = 1115 }
+
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

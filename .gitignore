@@ -1,0 +1,41 @@
+# Environment variables and sensitive files
+.env
+.env.*
+*.env
+*.env.*
+
+# Foundry cache and build artifacts
+cache/
+out/
+
+# Private keys and secrets
+*.key
+*.secret
+*.pem
+
+# Node.js dependencies (if using Hardhat or other JS tools alongside Foundry)
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Log files
+*.log
+
+# Foundry-specific temporary files
+*.t.sol
+*.bak
+
+# Coverage reports
+coverage/
+lcov.info
+
+# Other temporary or local files
+tmp/
+dist/
